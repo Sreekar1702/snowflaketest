@@ -81,4 +81,5 @@ def update_storage_firewall():
         print(f"Response: {response.text}")
 
 if __name__ == "__main__":
+    print("Started")
     update_storage_firewall()
